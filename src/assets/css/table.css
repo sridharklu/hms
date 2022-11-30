@@ -1,0 +1,36 @@
+table {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+ text-align: center;
+ color: var(--dark-color);
+
+
+}
+
+table th{
+font-size: var(--h6);
+}
+
+
+td, th {
+ 
+  text-align: center;
+
+  padding: 12px;
+  font-size: 18px;
+}
+
+
+.members-table{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.list-table{
+
+  width: 100%;
+  text-align: center;
+}

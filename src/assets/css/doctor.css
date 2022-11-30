@@ -1,0 +1,124 @@
+.doctorsContainer {
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 100%;
+}
+/* --------Header-------- */
+.doctorsTagIcons {
+    size: 24;
+    color: #13a5fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+    margin-left: 1%;
+}
+.headerContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.newDoctorLable {
+    margin-right: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row;
+    width: 10.5vw;
+    background-color: #92c468;
+    border: none;
+    color: white;
+    height: 30px;
+    justify-content: space-evenly;
+}
+/* ---------SearchBar--------- */
+.doctorsSearchBar{
+    width: 100%;
+}
+.doctorsSearchBar input{
+    background-color:#f9f9f9;
+    border: 1px solid #dbdbdb;
+    width: 40%;
+    height: 25px;
+    margin-left: 15%;
+}
+.doctorsSearchBar button{
+    background-color:#dbe1e7;
+    border: 1px solid #dbdbdb;
+    height: 29px;
+    width: 3.5%;
+    color: #9b97b3;
+}
+.doctorsSearchBar input::placeholder{
+    color: #9b97b3;
+}
+/* ----------editButton------------- */
+.doctorsStatusContainer {
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #9b97b3;
+}
+.doctorsStatusContainer button {
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #9b97b3;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+}
+.doctorsStatusContainer select, option{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #9b97b3;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    background-color: #fafafa;
+}
+/* ---------Tables--------- */
+.doctorsTableContainer {
+    margin: 0% 1% 0% 1%;
+    background-color: white;
+    height: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    color: #3a3a3a;
+}
+table th {
+    color: #878787;
+    font-size:13px;
+}
+td,th {
+    text-align: left;
+    padding: 12px;
+    font-size: 13px;
+    color: #7f7f7e;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.doctorsDeleteIcon{
+    margin-left: 30%;
+    color: #13a5fa;
+    font-size: 18px;
+}
+.doctorsNameLable{
+    color: #13a5fa;
+}
+.newDoctors{
+    width: 16%;
+
+}
+.newDoctors :link{
+    text-decoration: none;
+    
+}

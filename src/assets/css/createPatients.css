@@ -1,0 +1,137 @@
+.create-topheader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+
+.patient-form {
+  display: flex;
+  /* justify-content: space-between; */
+ 
+}
+.details-form{
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content: flex-start;
+  margin: 1% 0% 0% 0%;
+}
+
+.patient-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  row-gap: 10px;
+}
+.patient-container label{
+  font-size: 15px;
+  font-weight: 500;
+}
+.larger-field {
+  display: flex;
+  width: 28rem;
+  padding: 10px;
+  outline: none;
+  background-color: #fafbfb;
+  border: 1px solid #ececec;
+  border-width: 2px;
+}
+
+.normal-field {
+  width: 100%;
+   padding: 10px;
+   outline: none;
+   background-color: #fafbfb;
+  border: 1px solid #ececec;
+  border-width: 2px;
+ 
+}
+.save-btn {
+  background-color: #13a5fa;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.create-navigate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.create-navigate :link{
+  text-decoration: none;
+}
+.create-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.cancel-btn {
+  padding: 10px;
+}
+.create-topheader {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  width: 100%;
+  margin: 1px;
+}
+.create-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.create-patient h3{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1%;
+}
+
+
+.lab-btn{
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: #fff;
+  border: 0.3px solid ;
+}
+.hospital-btn{
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: #fff;
+  border: 0.3px solid ;
+}
+.create-tab{
+  width: 15rem;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  border: none;
+}
+
+.text-area{
+  display: flex;
+  width: 28rem;
+  padding: 4px;
+  outline: none;
+  background-color: #fafbfb;
+  border: 1px solid #ececec;
+  border-width: 2px;
+}
+.form-header hr{
+  border-top:  #dfdfdf;
+  border-width: 2px;
+}
+.form-header{
+  margin-top: 3%;
+}
+.pForm {
+  margin-bottom: 5%;
+}

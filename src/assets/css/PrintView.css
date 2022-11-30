@@ -1,0 +1,50 @@
+.printview-container {
+    width: 100%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.address{
+    margin-top: -2%;
+}
+/* ===1 table=== */
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td{
+  padding: 8px;
+  text-align: left;
+}
+.cash-table{
+  margin: 0% 15% 0% 15%;
+}
+.c-table{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/* ====2 table==== */
+
+  .total{
+    width: 100%;
+    align-items: center;
+  }
+  .total h3{
+    display: flex;
+    margin-right: 5%;
+    justify-content: flex-end
+  }
+  .total h4{
+    font-size: larger;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 8px;
+    border-top:1px solid #ddd ;
+  }

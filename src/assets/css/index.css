@@ -1,0 +1,22 @@
+@import url(./header.css);
+@import url(./table.css);
+@import url(./sidebar.css);
+@import url(./dashboard.css);
+@import url(./doctor.css);
+@import url(./updateStatus.css);
+@import url(./labTest.css);
+@import url(./layout.css);
+@import url(./labTestGroup.css);
+@import url(./patients.css);
+@import url(./department.css);
+@import url(./order.css);
+@import url(./testresult.css);
+@import url(./createPatients.css);
+@import url(./createorder.css);
+@import url(./createlabtest.css);
+@import url(./orderbilling.css);
+@import url(./createdepartment.css);
+@import url(./Login.css);
+@import url(./addtestresultScreen.css);
+@import url(./orderbilling.css)
+/* @import url(./demo.css); */

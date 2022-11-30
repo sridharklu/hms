@@ -1,0 +1,16 @@
+/* -----update-status------- */
+.statusContainer{
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: grey;
+}
+.update-box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: grey;
+    border: 1px solid rgb(204, 202, 202);
+    height: 30px;
+}

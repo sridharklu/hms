@@ -1,0 +1,109 @@
+.patientsContainer {
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 100%;
+}
+.tagIcons {
+    size: 24;
+    color: #13a5fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+    margin-left: 1%;
+}
+.headerContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.newPatientLable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #92c468;
+    border: none;
+    color: white;
+    height: 30px;
+    width:auto;
+}
+.patientsStatusContainer {
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #9b97b3;
+}
+.patientsStatusContainer button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #9b97b3;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    background-color: #fafafa;
+}
+.patientsStatusContainer select, option{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #9b97b3;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    background-color: #fafafa;
+}
+/* ------Table----- */
+.patientsTableContainer {
+    margin: 0% 1% 0% 1%;
+    background-color: white;
+    height: 100%;
+}
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    color: #3a3a3a;
+}
+table th {
+    color: #878787;
+    font-size:13px;
+}
+td,th {
+    text-align: left;
+    padding: 12px;
+    font-size: 13px;
+    color: #7f7f7e;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.patientsCreateOrder{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.patientsDeleteIcon{
+    color: #13a5fa;
+    font-size: 18px;
+}
+.patientsCreateOrder button{
+    margin-left: 30%;
+    background-color: #fff;
+    color: #878787;
+    border: 1px solid #dbdbdb;
+    height: 25px;
+    font-size: 12px;
+}
+.patientsLableColors{
+    color: #13a5fa;
+}
+.addPatient{
+   width: 12%;
+}
+.addPatient :link{
+    text-decoration: none;    
+}

@@ -1,0 +1,154 @@
+.ordersContainer {
+    background-color: #f2f2f2;
+    text-decoration: none;
+   
+}
+/* --------Header-------- */
+.ordersTagIcons {
+    color: #13a5fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-left: 1%;
+}
+.headerContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.newOrdersLable {
+    margin-right: 1%;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    background-color: #92c468;
+    border: none;
+    color: white;
+    height: 30px;
+   width: 110px;
+   text-decoration: none;
+   text-decoration-style: none;
+}
+/* ---------SearchBar--------- */
+.filterDate{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.filterDate input{
+    background-color:#f9f9f9;
+    border: 1px solid #dbdbdb;
+    height: 25px;
+   
+}
+.filterDate input::placeholder{
+    color: #9b97b3;
+}
+.goButton{
+    display: flex;
+}
+.goButton button{
+    background-color: #dbe1e7;
+    border: 1px solid #dbdbdb;
+    height: 25px;
+    color: #9b97b3;
+}
+.goButton .addButton{
+    background-color:#fff;
+}
+/* ----------editButton------------- */
+.ordersStatusContainer {
+  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #9b97b3;
+}
+.ordersStatusContainer button {
+    background-color:#f9f9f9;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #9b97b3;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    width: 10%;
+}
+.ordersStatusContainer select, option{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #9b97b3;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    background-color: #fafafa;
+}
+/* ---------Tables--------- */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #3a3a3a;
+}
+table th {
+    color: #878787;
+    font-size:12px;
+    font-weight: bold;
+}
+td {
+    text-align: left;
+    font-size: 12px;
+    color: #7f7f7e;
+    
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.ordersDeleteIcon{
+    color: #13a5fa;
+    font-size: 16px;
+}
+.addResult button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #7f7f7e;
+    border: 1px solid #dbdbdb;
+    height: 27px;
+    font-size: 12px;
+    width: 120px;
+    border-radius: 5px;
+}
+.membership-paid{
+    width: 120px;
+    height: 27px;
+     background-color:#53b758 ;
+     color: white;
+     border: none;
+     border-radius: 5px;
+ }
+ .membership-draft{
+    width: 120px;
+    height: 27px;
+     background-color: #eeab4d; 
+     color: white; 
+     border: none;  
+     border-radius: 5px;
+ }
+ .newOrders{
+    width: 16%;
+
+}
+.newOrders :link{
+    text-decoration: none;
+    
+}

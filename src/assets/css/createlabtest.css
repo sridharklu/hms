@@ -1,0 +1,185 @@
+.create-topheader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.patient-form {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 1% 0% 1%;
+}
+
+.details-form {
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 15%; */
+  margin: 0% 27% 0% 1%;
+}
+
+.patient-container {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+
+}
+.check {
+  margin-top: 13.5%;
+}
+.endCheck{
+  margin-top: 2.8%;
+}
+
+.patient-container label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.icon {
+  background: dodgerblue;
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  width: 20px;
+  margin: 0px;
+}
+
+.larger-field {
+  display: flex;
+  width: 28rem;
+  padding: 10px;
+  outline: none;
+
+}
+
+.normal-field {
+  width: 100%;
+  padding: 10px;
+
+}
+
+.save-btn {
+  background-color: rgb(23, 87, 207);
+  border: none;
+  padding: 10px;
+}
+
+.create-navigate {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15%;
+}
+
+.create-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.cancel-btn {
+  padding: 10px;
+}
+
+.create-topheader {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  width: 100%;
+  margin: 1px;
+}
+
+.create-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-patient h3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1%;
+}
+
+
+.lab-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: #fff;
+  border: 0.3px solid;
+}
+
+.hospital-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: #fff;
+  border: 0.3px solid;
+}
+
+.create-tab {
+  width: 15rem;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  border: none;
+}
+
+.text-area {
+  display: flex;
+  width: 28rem;
+  padding: 4px;
+  outline: none;
+}
+
+.extra-details {
+  width: 98%;
+
+  background-color: #fff;
+  margin: 1% 1% 1% 1%;
+  height: 30vh;
+  border: 1px solid skyblue;
+  box-shadow: 0px skyblue;
+}
+
+.extra-details hr {
+  border-top: #dfdfdf;
+  border-width: 2px;
+  width: 98%;
+}
+
+.details-header {
+  background-color: #00ffff;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5vh;
+  font-size: 15px;
+
+}
+
+/* .radio-button{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: flex-start;
+
+ } */
+.radio-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* gap: 5%; */
+  width: 50%;
+  margin: 1% 0% 0% 1%;
+  /* padding:1%; */
+}

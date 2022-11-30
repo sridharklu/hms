@@ -1,0 +1,23 @@
+.container {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputFeild {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.inputFeild input{
+    outline: none;
+    width: 15vw;
+    height: 3vh;
+}
+.buttonFeild {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}

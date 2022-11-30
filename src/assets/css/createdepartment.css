@@ -1,0 +1,17 @@
+.department-field{
+  width: 40em;
+  height: 5vh;
+  display: flex;
+  /* padding: 10px; */
+  outline: none;
+  background-color: #fafbfb;
+  border: 1px solid #ececec;
+  border-width: 2px;
+}
+.searchBar input{
+  width: 20em;
+  height: 4vh;
+}
+.searchBar button{
+  height: 5vh;
+}

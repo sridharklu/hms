@@ -1,0 +1,93 @@
+
+.patient-testdetails{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    
+}
+.test-orderdetails{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #fff;
+    width: 95%;
+    margin: 3%;
+}
+.test-details{
+    background-color: aqua;
+    font-size: 17px;
+    font-weight: 500;
+    height: 5vh;
+}
+.order-report{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.order-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.order-name h4{
+    padding: 0%;
+    margin: 0%;
+}
+.order-name p{
+    padding: 0%;
+    margin: 0%;
+    font-size: 12px;
+    font-weight: 500;
+}
+.order-test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.order-amount{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+.order-billing{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    gap: 15px;
+    margin: 2%;
+}
+.order-paid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.group-btn{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 12px;
+    
+}
+.oders-search{
+    margin: 2%;
+  }
+.invoice-header{
+    display: flex;
+    justify-content: center;
+}
+.print-content{
+    display: flex;
+    justify-content:space-between
+}
+.invoice-footer{
+    display: flex;
+    justify-content: end;
+}
+.invoice-download{
+    margin: 50px;
+}

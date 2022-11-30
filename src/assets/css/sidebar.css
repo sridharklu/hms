@@ -1,0 +1,180 @@
+.menu {
+  background-color: #404b5f;
+  color: #fff;
+  position: relative;
+  height: 100vh;
+  width: 200px;
+
+}
+.menu li {
+  font-weight: 500;
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+ 
+}
+.menu li p {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 5%;
+  gap: 15px;
+  color: #fff;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 10px;
+}
+.menu ul :hover {
+  background-color: #6665f6;
+  color: #fff;
+}
+.menu ul :active {
+  background-color: #6665f6;
+  color: #fff;
+}
+.menu ul ::after {
+  background-color: #6665f6;
+  color: #fff;
+}
+
+.menu ul ::selection {
+  background-color: #6665f6;
+  color: #fff;
+}
+.menu ul :enabled {
+  background-color: #6665f6;
+  color: #fff;
+}
+.menu ul :target {
+  background-color: #6665f6;
+  color: #fff;
+}
+.sidebar {
+  padding-left: 0%;
+}
+
+.brand {
+  font-family: "IceLand";
+  padding: 10px 30px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0%;
+}
+
+.navbutton {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.nav-responsive {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .navbutton {
+    display: flex;
+    padding: 3% 0%;
+  }
+  .menu {
+    display: none;
+  }
+  .nav-responsive {
+    display: block !important;
+    text-decoration: none;
+  }
+  .nav-responsive li {
+    text-decoration: none;
+  }
+}
+
+.closeBtn {
+  display: block;
+  left: 0;
+  top: 25px;
+}
+.nav-responsive {
+  background-color: #404b5f;
+  color: #fff;
+ 
+  width: 250px;
+  padding: 0%;
+}
+.nav-responsive ul {
+  padding: 0%;
+}
+.nav-responsive li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  gap: 15px;
+  width: 250px;
+  border: none;
+}
+.nav-responsive li:hover {
+  border-radius: 10px;
+  width: 10rem;
+  color: blue !important;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  padding-top: 5%;
+}
+
+.brand-name p {
+  margin: 0%;
+  font-size: 13px;
+  font-weight: 400;
+}
+.brand-name h2 {
+  margin: 0%;
+  padding: 0%;
+  font-size: var(--h7);
+  font-weight: var(--regular);
+}
+.brand-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.menu-item {
+  background-color: orange;
+ 
+}

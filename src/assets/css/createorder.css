@@ -1,0 +1,97 @@
+.create-topheader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.patient-form {
+  display: flex;
+  width: 97%;
+  /* justify-content: space-around; */
+  margin-top: 1%;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  color: #5d5d5f;
+  text-align: center;
+  width: 15px;
+  background-color: #fafbfb;
+  border: 1px solid #ececec;
+  border-width: 2px;
+}
+
+.input-field {
+  display: flex;
+  width: 16rem;
+  padding: 10px;
+  background-color: #fafbfb;
+  border: 1px solid #ececec;
+  border-width: 2px;
+  outline: none;
+}
+
+.create-code {
+  width: 70%;
+  padding: 10px;
+  background-color: #fafbfb;
+  border: 1px solid #ececec;
+  border-width: 2px;
+  outline: none;
+}
+.save-btn {
+  width: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #13a5fa;
+  border: none;
+  padding: 10px;
+  margin: 8px 15px 0px 15px;
+  margin-bottom: 10px;
+}
+.create-navigate {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15%;
+}
+.create-btn {
+  /* display: flex; */
+  align-items: center;
+  justify-content: flex-end;
+  width: 35%;
+}
+.cancel-btn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6%;
+  padding: 8px;
+  margin-bottom: 7px;
+}
+.create-topheader {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  width: 100%;
+  margin: 1px;
+}
+.create-field {
+  display: flex;
+}
+
+.test-report{
+  margin: 2%;
+  display: flex;
+  
+}
+.navigateLable{
+  color: #13a5fa;
+}

@@ -1,0 +1,40 @@
+.createOrder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.deleteIcon {
+  margin-left: 30%;
+  color: #13a5fa;
+  font-size: 16px;
+}
+.createOrder button {
+  margin-left: 10%;
+  background-color: #fff;
+  color: #878787;
+  border: 1px solid #dbdbdb;
+  height: 25px;
+  font-size: 12px;
+}
+.newLabTestLable {
+  /* justify-content: center; */
+  flex-direction: row;
+  /* width: 10.5vw;
+  display: flex; */
+  align-items: center;
+  gap: 5px;
+  background-color: #92c468;
+  border: none;
+  color: white;
+  height: 30px;
+}
+.newLabTestLable :link{
+  text-decoration: none;    
+}
+
+
+/* .newLabTestLable{
+  width: 16%;
+
+} */

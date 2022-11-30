@@ -1,0 +1,81 @@
+.testResultContainer {
+    background-color: #f2f2f2;
+   
+}
+/* --------Header-------- */
+.testResultTagIcons {
+    color: #13a5fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-left: 1%;
+}
+.headerContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+/* ---------SearchBar--------- */
+.filterDate{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.filterDate input{
+    background-color:#f9f9f9;
+    border: 1px solid #dbdbdb;
+    height: 25px;
+}
+.filterDate input::placeholder{
+    color: #9b97b3;
+}
+.goButton button{
+    background-color: #dbe1e7;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    color: #9b97b3;
+}
+.goButton .addButton{
+    background-color:#fff;
+}
+/* ----------editButton------------- */
+.testResultStatusContainer {
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #9b97b3;
+}
+.testResultStatusContainer button {
+    background-color:#f9f9f9;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #9b97b3;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+}
+.testResultStatusContainer select, option{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #9b97b3;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    background-color: #fafafa;
+}
+/* ---------Tables--------- */
+.testResultTableContainer {
+   
+    background-color: white;
+    height: 100%;
+}
+
+.orderLable{
+    color: #13a5fa;
+}

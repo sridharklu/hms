@@ -1,0 +1,91 @@
+.testName-container{
+    display: flex;   
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1% 1% 1% 1%;
+}
+.card-container{
+}
+.card-container table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.card-container td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.card-container td h1{
+    font-size: 20px;
+    color: rgb(107, 107, 107);
+}
+.hoverInput input{
+    outline: none;
+    width: 22%;
+}
+.hoverInput input:focus{
+    border: 3px solid skyblue;
+    box-shadow: 0px 0px 16px 0px skyblue;
+}
+/* ------------ex D------------ */
+.saveInvoice{
+    margin: 2% 1% 1% 1%;
+}
+.saveInvoice table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.saveInvoice th{
+    border: 1px solid #dddddd;
+}
+/* .saveInvoice tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+
+/* ------invoice---- */
+.printInvoice{
+    margin: 0% 1% 1% 1%;
+    width: 55%;
+    display: flex;
+    margin-left: auto;
+}
+.printInvoice th{
+    border: 1px solid #dddddd;
+}
+
+  .create-btn {
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-end;
+    width: 35%;
+  }
+  .cancel-btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    padding: 8px;
+    margin-bottom: 7px;
+  }
+  .create-topheader {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 100%;
+    margin: 1px;
+  }
+  .create-btn {
+    margin-left: auto;
+  } */
+  .testDetails{
+    width: 100%;
+    background-color: #fff;
+    margin: 1%;
+    height: 85vh;
+    border: 1px solid skyblue;
+    box-shadow:  skyblue;
+  }
+  .testDetails .test-searchbox {
+    text-align: center !important;
+}

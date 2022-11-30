@@ -1,0 +1,96 @@
+.loginContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signinCard {
+    border: 1px solid #d3d3d3;
+    background-color: #f5f5f5;
+    width: 34%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+  }
+.signinCard p {
+    margin-left: 4%;
+    color: #63636c;
+}
+.loginCard{
+    width: 34%;
+    height: 43.3vh;
+    border: 1px solid #d3d3d3;
+    display: flex;
+}
+.loginCard img{
+    height: 38vh;
+    margin: 15px 0px 15px 15px;
+}
+.loginLable hr{
+    margin-top: -16px;
+    margin-left: 10%;
+    width: 37vh;
+}
+.loginLable p{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 10%;
+    color: #3d3737;
+    font-weight: 400;
+    font-size: 20px;
+}
+.userBar input{
+    background-color:#f9f9f9;
+    border: 1px solid #d0d3da;
+    border-radius: 4px;
+    width: 98%;
+    height: 25px;
+    margin-top: 4%;
+    margin-left: 10%;
+    background-color: #e8f0fe;
+    outline: none;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.passwordBar input{
+    background-color:#f9f9f9;
+    border: 1px solid #d0d3da;
+    border-radius: 4px;
+    width: 98%;
+    height: 25px;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: #e8f0fe;
+    outline: none;
+}
+.checkBar {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 8.5%;
+    margin-top: -5px;
+}
+.checkBar input, p{
+    color: #63636c;
+}
+.loginBox {
+    font-size: large;
+    color: #fff;
+    background-color:#5bb85d;
+    width: 100%;
+    margin-left: 10%;
+    margin-bottom: 50vh;
+    height: 45px;
+    border: none;
+    padding: 5%;
+}
+.loginBox:hover{
+    background-color:#0f7911;
+}
+.msg{
+    color: red;
+}

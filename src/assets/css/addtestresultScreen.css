@@ -1,0 +1,78 @@
+.layout-container > div{
+    text-align: left !important;
+  
+}
+.layout-container .orderdetail {
+    display: flex;
+    margin: 2px;
+}
+.layout-container .orderdetail > p {
+    margin-left: 20px;
+} 
+.orderdetail > p:nth-child(2) {
+    
+    margin-left: 25%;
+  }
+.layout-container .patient-details {
+ display: flex;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+table {
+    border-collapse: collapse;
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.testresult-card {
+    padding-bottom: 10%;
+}
+tr {
+ text-align: -webkit-left;
+
+}
+
+td input[type=text]{
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    
+  }

@@ -1,0 +1,90 @@
+.testGroupContainer {
+  background-color: #f2f2f2;
+  height: 100vh;
+  width: 100%;
+}
+/* --------Header-------- */
+.testGroupTagIcons {
+  size: 24;
+  color: #13a5fa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+  margin-left: 1%;
+}
+.headerContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.newLabTestGroupLable {
+  margin-right: 1%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #92c468;
+  border: none;
+  color: white;
+  height: 30px;
+  justify-content: space-evenly;
+}
+/* ---------SearchBar--------- */
+.testGroupSearchBar{
+  width: 100%;
+}
+.testGroupSearchBar input{
+  background-color:#f9f9f9;
+  border: 1px solid #dbdbdb;
+  width: 40%;
+  height: 25px;
+  margin-left: 15%;
+}
+.testGroupSearchBar button{
+  background-color:#dbe1e7;
+  border: 1px solid #dbdbdb;
+  height: 29px;
+  width: 3.5%;
+  color: #9b97b3;
+}
+.testGroupSearchBar input::placeholder{
+  color: #9b97b3;
+}
+/* ----------editButton------------- */
+.testGroupStatusContainer {
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #9b97b3;
+}
+.testGroupStatusContainer button {
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #9b97b3;
+  border: 1px solid #dbdbdb;
+  height: 30px;
+}
+.testGroupStatusContainer select, option{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #9b97b3;
+  border: 1px solid #dbdbdb;
+  height: 30px;
+  background-color: #fafafa;
+}
+/* ---------Tables--------- */
+
+.testGroupDeleteIcon{
+  margin-left: 30%;
+  color: #13a5fa;
+  font-size: 18px;
+}
+.nameLableColor{
+  color: #13a5fa;
+}
